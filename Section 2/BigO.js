@@ -78,7 +78,7 @@ function logItems(n) {
 }
 
 logItems(10) // O(n) * O(n) + O(n) = O(n^2) + O(n) = O(n^2) // we drop the non-dominant
-// if we have n = 100 and we have 100² = 10000, so we n² is the dominate term so we drop the non-dominant
+// if we have n = 100 and we have 100² = 10000, so  n² is the dominate term so we drop the non-dominant n= 100
 
 // Example 5 O(1) Constant Time
 
