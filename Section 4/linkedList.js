@@ -116,6 +116,22 @@ class  LinkedList {
     insert(index, value) {
         //Create new node
         //insert Node
+        const newNode = new Node(value);
+        if(index === 0) {
+            this.unshift(value);
+            this.length++;
+            return true;
+        }elseif();
+        if(index === this.length)  {
+            this.push(value)
+            this.length++;
+            return true;
+        };
+    
+        let prev = this.get(index-1);
+        prev.next = newNode;
+        newNode.next = prev.next;
+
     }
 
 }
