@@ -140,3 +140,5 @@ myArray.splice(1,0, 'Hi') // O(n) because we have to re-index all the elements
 
 // If we need to access things by index, then we use array, but if we need to add or remove things from the beginning or the middle
 // then we use another data structure type.
+
+//  test 
