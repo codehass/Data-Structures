@@ -17,4 +17,20 @@ class DoublyLinkedList {
     this.length = 1;
   }
 
+  // push method
+  push(value) {
+    const newNode = new Node(value)
+    if(!this.head) {
+      this.head = newNode;
+      this.tail = newNode;
+    }else {
+      this.tail.next = newNode;
+      newNode.prev = this.tail;
+      this.tail = newNode;
+    }
+  }
 }
+
+//Example
+const myDoublyLinkedList = new DoublyLinkedList(7);
+myDoublyLinkedList
