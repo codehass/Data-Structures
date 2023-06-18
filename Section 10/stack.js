@@ -28,3 +28,7 @@ class Stack {
     return this;
   }
 }
+
+let newStack = new Stack(7);
+newStack.push(4)
+newStack.push(2)
