@@ -85,3 +85,9 @@ class BST {
     return currentNode;
   }
 }
+
+//Example of a BST
+const myTree = new BST();
+myTree.insert(47);
+myTree.insert(21);
+myTree.insert(76);
