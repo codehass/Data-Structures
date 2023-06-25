@@ -91,3 +91,8 @@ const myTree = new BST();
 myTree.insert(47);
 myTree.insert(21);
 myTree.insert(76);
+myTree.insert(18);
+myTree.contains(18); //true
+myTree.contains(100); //false
+myTree.contains(76); //true
+myTree.contains(47); //true
